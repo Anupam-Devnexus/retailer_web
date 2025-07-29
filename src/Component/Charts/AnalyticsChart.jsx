@@ -9,6 +9,7 @@ const AnalyticsChart = () => {
     month,
     total: detail.total
   }));
+  console.log(monthlyData)
 
   return (
     <div className="w-full h-[400px]">
